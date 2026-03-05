@@ -24,7 +24,7 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto px-6 h-20 flex justify-between items-center">
         <Link to="/" className="flex items-center gap-4 group">
           <img
-            src="/Sahaj.jpeg"
+            src="/sahaj.png"
             alt="Odisha Emblem"
             className="h-14 w-auto drop-shadow-[0_0_15px_rgba(255,255,255,0.4)] group-hover:scale-110 transition-transform"
           />
@@ -125,7 +125,7 @@ const Navbar = () => {
 const Footer = () => (
   <footer className="bg-black border-t border-white/10 py-20 px-6">
     <div className="max-w-7xl mx-auto flex flex-col items-center text-center">
-      <img src="/sahaj.jpeg" alt="Odisha Emblem" className="h-24 w-auto mb-8" />
+      <img src="/sahaj.png" alt="Odisha Emblem" className="h-24 w-auto mb-8" />
       <p className="text-violet-400/80 text-sm font-bold mb-4">
         Developed and maintained by{" "}
         <strong className="text-white">PugArch Technology Pvt Ltd</strong>
