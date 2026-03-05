@@ -62,6 +62,7 @@ const Navbar = () => {
           <a
             href="https://wa.me/918999470824"
             target="_blank"
+            rel="noopener noreferrer"
             className="px-5 py-2.5 bg-violet-600 hover:bg-violet-700 text-white text-sm font-bold rounded-xl transition-all hover:scale-105 shadow-[0_0_20px_rgba(124,58,237,0.3)]"
           >
             Launch Chatbot
@@ -151,6 +152,7 @@ const Footer = () => (
         <a
           href="https://jharsuguda.odisha.gov.in"
           target="_blank"
+          rel="noopener noreferrer"
           className="text-xs text-gray-500 hover:text-white transition-colors"
         >
           Official Website
