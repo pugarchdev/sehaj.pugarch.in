@@ -284,7 +284,11 @@ const HomePage = () => {
             </p>
             <p className="text-lg text-gray-400 mb-10 leading-relaxed">
             Sahaj is the official WhatsApp chatbot service of Collectorate Jharsuguda implemented for citizen assistance and public information.
-            </p> <div className="grid grid-cols-1 sm:grid-cols-2 gap-8">
+            </p> 
+             <p className="text-lg text-gray-400 mb-10 leading-relaxed">
+This platform is currently deployed to assist citizens
+interacting with district administration services in Jharsuguda.            </p>
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-8">
               <div className="space-y-2">
                 <span className="text-xs font-bold text-gray-500 uppercase tracking-widest">
                   Address
