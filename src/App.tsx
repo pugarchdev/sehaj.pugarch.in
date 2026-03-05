@@ -31,7 +31,7 @@ const Navbar = () => {
           <div className="h-10 w-[1px] bg-white/20 hidden sm:block" />
           <div className="flex flex-col">
             <span className="text-xl font-black bg-gradient-to-r from-white to-violet-400 bg-clip-text text-transparent">
-              Sehaj
+              Sahaj
             </span>
             <span className="text-[10px] uppercase tracking-widest text-gray-500 font-bold">
               Collectorate Jharsuguda
@@ -191,18 +191,18 @@ const HomePage = () => {
           </div>
 
           <h1 className="text-5xl md:text-8xl font-black mb-8 leading-[0.9] tracking-tighter">
-            Sehaj – <br />
+            Sahaj – <br />
             <span className="text-transparent bg-clip-text bg-gradient-to-br from-white via-white to-violet-500">
               Collectorate Jharsuguda
             </span>
           </h1>
 
           <p className="text-lg md:text-xl text-gray-400 max-w-2xl mx-auto mb-12 font-medium leading-relaxed">
-           Sehaj is a digital citizen helpdesk platform developed by PugArch Technology Pvt Ltd for the District Administration of Jharsuguda.
+           Sahaj is a digital citizen helpdesk platform developed by PugArch Technology Pvt Ltd for the District Administration of Jharsuguda.
           </p>
           <p className="text-lg md:text-xl text-gray-400 max-w-2xl mx-auto mb-12 font-medium leading-relaxed">
             
-            Citizens can contact the Sehaj WhatsApp helpdesk to receive district
+            Citizens can contact the Sahaj WhatsApp helpdesk to receive district
             services and support directly from Collectorate Jharsuguda.
           </p>
 
@@ -281,7 +281,7 @@ const HomePage = () => {
               governance for the citizens of Jharsuguda.
             </p>
             <p className="text-lg text-gray-400 mb-10 leading-relaxed">
-            Sehaj is the official WhatsApp chatbot service of Collectorate Jharsuguda implemented for citizen assistance and public information.
+            Sahaj is the official WhatsApp chatbot service of Collectorate Jharsuguda implemented for citizen assistance and public information.
             </p> <div className="grid grid-cols-1 sm:grid-cols-2 gap-8">
               <div className="space-y-2">
                 <span className="text-xs font-bold text-gray-500 uppercase tracking-widest">
@@ -345,9 +345,9 @@ const PrivacyPage = () => (
         <p>
           This Privacy Policy describes how{" "}
           <strong className="text-white">
-            Sehaj – Collectorate Jharsuguda WhatsApp Helpdesk
+            Sahaj – Collectorate Jharsuguda WhatsApp Helpdesk
           </strong>{" "}
-          handles your information. Sehaj is the official digital service
+          handles your information. Sahaj is the official digital service
           platform for citizen services of Collectorate Jharsuguda, developed
           and maintained by{" "}
           <strong className="text-white">PugArch Technology Pvt Ltd</strong>.
@@ -424,7 +424,7 @@ const TermsPage = () => (
           1. Acceptance of Terms
         </h2>
         <p>
-          By using the Sehaj WhatsApp Helpdesk, you agree to comply with the
+          By using the Sahaj WhatsApp Helpdesk, you agree to comply with the
           official guidelines set by the Collectorate Jharsuguda District
           Administration.
         </p>
