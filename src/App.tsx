@@ -60,8 +60,8 @@ const Navbar = () => {
             Partners
           </Link>
           <Link
-            to="/whatsapp-services"
-            className={`text-xs font-semibold uppercase tracking-wider transition-colors ${pathname === "/whatsapp-services" ? "text-violet-400" : "text-gray-400 hover:text-white"}`}
+            to="/whatsapp"
+            className={`text-xs font-semibold uppercase tracking-wider transition-colors ${pathname === "/whatsapp" ? "text-violet-400" : "text-gray-400 hover:text-white"}`}
           >
             WhatsApp
           </Link>
@@ -122,7 +122,7 @@ const Navbar = () => {
                 Partners
               </Link>
               <Link
-                to="/whatsapp-services"
+                to="/whatsapp"
                 onClick={() => setIsOpen(false)}
                 className="text-lg font-bold"
               >
@@ -189,7 +189,7 @@ const Footer = () => (
           Contact
         </Link>
         <Link
-          to="/privacy-policy"
+          to="/privacy"
           className="text-xs text-gray-500 hover:text-white transition-colors"
         >
           Privacy Policy
@@ -770,9 +770,9 @@ function App() {
           <Route path="/" element={<HomePage />} />
           <Route path="/about" element={<AboutPage />} />
           <Route path="/partners" element={<PartnersPage />} />
-          <Route path="/whatsapp-services" element={<WhatsAppServicesPage />} />
+          <Route path="/whatsapp" element={<WhatsAppServicesPage />} />
           <Route path="/contact" element={<ContactPage />} />
-          <Route path="/privacy-policy" element={<PrivacyPage />} />
+          <Route path="/privacy" element={<PrivacyPage />} />
           <Route path="/terms" element={<TermsPage />} />
           <Route path="/privacy" element={<PrivacyPage />} />
         </Routes>
